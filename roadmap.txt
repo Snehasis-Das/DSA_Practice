@@ -1,0 +1,244 @@
+=====================================================
+DSA IMPLEMENTATION ROADMAP (C++)
+Goal: Build all core algorithmic building blocks
+=====================================================
+
+-----------------------------------------------------
+PHASE 0: LANGUAGE & TOOLING (NON-NEGOTIABLE)
+-----------------------------------------------------
+-> Fast I/O (cin/cout vs scanf/printf)
+-> Pass by reference vs value
+-> Const correctness
+-> Iterators & range-based loops
+-> Lambda functions
+-> Custom comparator for sort
+-> Bitwise operators (& | ^ << >>)
+-> Overflow handling (int vs long long)
+-> STL overview (vector, map, set, priority_queue)
+
+-----------------------------------------------------
+PHASE 1: ARRAYS & STRINGS (FOUNDATION)
+-----------------------------------------------------
+Array Basics
+-> Reverse an array
+-> Rotate array (left/right by k)
+-> Find min/max
+-> Prefix sum array
+-> Difference array
+-> Sliding window template (fixed window)
+-> Sliding window template (variable window)
+
+Subarrays
+-> Generate all subarrays
+-> Max subarray sum (Kadane)
+-> Count subarrays with given sum (hashmap)
+-> Longest subarray with constraints
+
+Two Pointer Techniques
+-> Two sum (sorted array)
+-> Remove duplicates in-place
+-> Partition array (odd-even, 0-1-2)
+
+Strings
+-> Reverse string
+-> Check palindrome
+-> Frequency count
+-> Anagram check
+-> Longest common prefix
+-> Substring search (naive)
+-> Sliding window on string
+
+-----------------------------------------------------
+PHASE 2: SEARCHING & SORTING (CORE ALGORITHMS)
+-----------------------------------------------------
+Binary Search
+-> Standard binary search
+-> First/last occurrence
+-> Lower bound
+-> Upper bound
+-> Binary search on answer
+-> Binary search on rotated array
+-> Peak element
+
+Sorting Algorithms (Implement ALL)
+-> Bubble sort
+-> Selection sort
+-> Insertion sort
+-> Merge sort
+-> Quick sort
+-> Counting sort
+-> Radix sort (optional)
+
+Sorting Applications
+-> Sort with custom comparator
+-> Sort intervals
+-> Kth smallest/largest element
+
+-----------------------------------------------------
+PHASE 3: RECURSION & BACKTRACKING (THINKING TOOLS)
+-----------------------------------------------------
+Recursion Basics
+-> Print numbers
+-> Sum of digits
+-> Power function
+-> Factorial
+
+Backtracking Templates
+-> Generate all subsets
+-> Generate all permutations
+-> Combination sum (basic)
+-> N-choose-K combinations
+-> String permutations
+-> Balanced parentheses generator
+
+Recursion Optimizations
+-> Tail recursion
+-> Memoization introduction
+
+-----------------------------------------------------
+PHASE 4: HASHING & MAPS (LOOKUP POWER)
+-----------------------------------------------------
+-> Frequency hashmap
+-> Count distinct elements
+-> Two sum (hashing)
+-> Subarray sum using hashmap
+-> Longest consecutive sequence
+-> Group anagrams
+-> Custom hash (pair, struct)
+
+-----------------------------------------------------
+PHASE 5: STACK & QUEUE (PATTERN MACHINES)
+-----------------------------------------------------
+Stack
+-> Stack using array
+-> Stack using linked list
+-> Valid parentheses
+-> Next greater element
+-> Previous smaller element
+-> Monotonic stack template
+-> Largest rectangle in histogram (logic only)
+
+Queue
+-> Queue using array
+-> Queue using linked list
+-> Circular queue
+-> Deque basics
+-> Sliding window maximum (deque)
+
+-----------------------------------------------------
+PHASE 6: LINKED LIST (POINTER CONFIDENCE)
+-----------------------------------------------------
+Singly Linked List
+-> Insert at head/tail
+-> Delete node
+-> Reverse linked list
+-> Find middle
+-> Detect cycle (Floyd)
+-> Merge two sorted lists
+
+Doubly Linked List
+-> Insert/delete
+-> Reverse DLL
+
+Advanced
+-> LRU cache logic
+-> Clone linked list with random pointer
+
+-----------------------------------------------------
+PHASE 7: TREES (STRUCTURAL THINKING)
+-----------------------------------------------------
+Binary Tree Basics
+-> Tree node structure
+-> Tree traversal (pre/in/post)
+-> Level order traversal
+-> Height of tree
+-> Diameter of tree
+
+Binary Search Tree
+-> Insert/search/delete
+-> Validate BST
+-> Kth smallest element
+
+Tree Patterns
+-> Path sum
+-> Lowest common ancestor
+-> Serialize & deserialize tree
+-> Views (left/right/top)
+
+-----------------------------------------------------
+PHASE 8: HEAPS & PRIORITY QUEUE
+-----------------------------------------------------
+-> Heap implementation (min/max)
+-> Heapify
+-> K largest elements
+-> K smallest elements
+-> Merge k sorted arrays
+-> Top K frequent elements
+-> Median in stream
+
+-----------------------------------------------------
+PHASE 9: GRAPHS (INTERVIEW SEPARATOR)
+-----------------------------------------------------
+Graph Representation
+-> Adjacency list
+-> Adjacency matrix
+
+Traversal
+-> BFS
+-> DFS (recursive & iterative)
+
+Graph Algorithms
+-> Detect cycle (directed/undirected)
+-> Topological sort (BFS & DFS)
+-> Connected components
+-> Bipartite check
+-> Shortest path (BFS)
+-> Dijkstra
+-> Union-Find (DSU)
+
+-----------------------------------------------------
+PHASE 10: DYNAMIC PROGRAMMING (FINAL BOSS)
+-----------------------------------------------------
+DP Basics
+-> Fibonacci (memo + tabulation)
+-> Climbing stairs
+-> House robber
+
+1D DP
+-> Maximum subarray sum
+-> Coin change
+-> Partition equal subset
+
+2D DP
+-> Knapsack (0/1)
+-> Longest common subsequence
+-> Longest increasing subsequence
+-> Edit distance
+
+DP Optimization
+-> Space optimization
+-> State transition thinking
+
+-----------------------------------------------------
+PHASE 11: BIT MANIPULATION (EDGE ADVANTAGE)
+-----------------------------------------------------
+-> Check odd/even
+-> Count set bits
+-> Single number problems
+-> Power of two
+-> XOR tricks
+-> Subsets using bits
+
+-----------------------------------------------------
+PHASE 12: MATH & MISCELLANEOUS
+-----------------------------------------------------
+-> GCD & LCM
+-> Sieve of Eratosthenes
+-> Modular arithmetic
+-> Fast exponentiation
+-> Matrix multiplication basics
+-> Random number generation
+
+=====================================================
+END OF ROADMAP
+=====================================================
